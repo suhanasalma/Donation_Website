@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&family=Roboto:wght@700&family=Rubik+Moonrocks&family=Source+Sans+Pro&family=Zen+Dots&display=swap');
+.heading_text{
+   font-family: 'Fjalla One', sans-serif;
+}
+.same_font{
+
+   font-family: 'Source Sans Pro', sans-serif;
+}
+.container img{
+   min-width: 100%;
+}
+
+.container{
+   position: relative;
+}
+.container_text_that_goes_on_image{
+   position: absolute;
+   top:50%;
+   left:45%;
+   transform: translate(-50%, -50%);
+   color:white;
+   text-align: center;
+   
+}
+h1{
+   font-size: 80px;
+   
+}
+p{
+   font-size: 48px;
+}
+a{
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+   background-color: rgb(245, 96, 85);
+   padding:20px;
+   border-radius: 10px;
+}
