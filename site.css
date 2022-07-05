@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&family=Roboto:wght@700&family=Rubik+Moonrocks&family=Source+Sans+Pro&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&family=Roboto:wght@700&family=Rubik+Moonrocks&family=Source+Sans+Pro:wght@300&family=Zen+Dots&display=swap');
+
 .heading_text{
    font-family: 'Fjalla One', sans-serif;
 }
-.same_font{
+.same_font, .gray_color, #make_it_light_gray{
 
    font-family: 'Source Sans Pro', sans-serif;
+   font-size: 30px;
 }
 .container img{
    min-width: 100%;
@@ -23,17 +25,68 @@
    
 }
 h1{
-   font-size: 80px;
+   font-size: 100px;
    
 }
-p{
-   font-size: 48px;
-}
+
 a{
    text-decoration: none;
-   font-size: 30px;
    color: white;
    background-color: rgb(245, 96, 85);
    padding:20px;
    border-radius: 10px;
+   line-height: 5;
+   
+}
+
+.Money_Contain{
+   text-align: center;
+   margin: 7% 0;
+   
+   
+}
+.Money_Contain_List{
+   display: inline-block;
+   padding: 2%;
+   margin: 15px;
+   background-color: rgba(128, 128, 128, 0.059);
+   
+}
+.Money_Contain_List:hover{
+   
+   color:rgb(235, 85, 110);
+   border:2px solid rgb(235, 85, 110);
+   background-color: pink;
+   border-radius: 5px;
+
+
+}
+hr{
+   width: 60%;
+   
+}
+h2{
+   font-size: 50px;
+}
+p.gray_color, #make_it_light_gray{
+   font-size: 20px;
+}
+.gray_color{
+   color: gray;
+   font-weight: bold;
+   font-size: 40px;
+}
+#make_it_light_gray{
+   color: rgba(128, 128, 128, 0.534);
+   
+
+}
+section{
+   display: flex;
+   padding:0 2%;
+   margin:0 5% 10%;
+
+}
+.donation_plan{
+  
 }
