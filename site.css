@@ -4,7 +4,7 @@ body{
    padding: 0;
    margin: 0;
 }
-.heading_text , .donation_header{
+.heading_text , .donation_header, .Bigger_text{
    font-family: 'Fjalla One', sans-serif;
 }
 .same_font, .gray_color, #make_it_light_gray
@@ -96,7 +96,7 @@ p.gray_color, #make_it_light_gray{
    
 
 }
-section{
+section, .div-sec{
    display: flex;
    margin:0 5%
 
@@ -111,10 +111,10 @@ section{
 
 }
 
-.donation_plan_color_01{
+.donation_plan_color_01, .work_flow{
    background-color:rgba(177, 240, 240, 0.331);
 }
-.donation_plan_color_02{
+.donation_plan_color_02, .line{
    background-color: rgba(255, 192, 203, 0.399);
 }
 .donation_plan_color_03{
@@ -148,7 +148,7 @@ footer{
    
 }
 
-form{
+.email{
    margin: 50px 20%;
    padding:50px 100px;
    background-color: rgb(239, 239, 197);
@@ -167,7 +167,6 @@ form{
 
 ::placeholder {
    color:gray;
-   /* background-color: transparentrgba(128, 128, 128, 0.205); */
    
    
    
@@ -192,3 +191,33 @@ form{
    top:50px;
    left:60%;
  }
+.work_flow{
+   padding: 50px;
+   width: 50%;
+   margin: 0 2%;
+   box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.41);
+   border-radius: 10px;
+}
+
+
+.Activities{
+   margin-top: 5%;
+}
+
+.Creative{
+   /* border: 2px solid; */
+   padding: 5%;
+   
+}
+
+.work-flow-text{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 20px;
+   }
+
+.amount{
+   background: transparent;
+}
+.back{
+   background-color:white;
+}
