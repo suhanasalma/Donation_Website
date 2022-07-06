@@ -45,7 +45,7 @@ a{
    
 }
 
-.Money_Contain{
+.Money_Contain {
    text-align: center;
    margin: 7% 0;
    
@@ -54,7 +54,7 @@ a{
 
 .donation_Contain{
    text-align: center;
-   margin: 3%;
+   margin: 2%;
 }
 
 .Money_Contain_List{
@@ -147,3 +147,47 @@ footer{
    font-size: 20px;
    
 }
+
+form{
+   margin: 50px 20%;
+   padding:50px 100px;
+   background-color: rgb(239, 239, 197);
+   position: relative;
+}
+
+.email_header{
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 50px;
+}
+.email_text{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 20px;
+   
+}
+
+::placeholder {
+   color:gray;
+   /* background-color: transparentrgba(128, 128, 128, 0.205); */
+   
+   
+   
+ }
+ input{
+   border-style:none; 
+   background-color:rgba(128, 128, 128, 0.205);
+   padding:10px 15px;
+   font-size: 20px;
+   border-radius: 5px;
+   position: relative;
+   
+ }
+ button{
+   border-style: none;
+   padding:10px 15px;
+   font-size: 20px;
+   border-radius: 5px;
+   background-color:orange;
+   position: absolute;
+   top:50px;
+   left:60%;
+ }
